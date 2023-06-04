@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Overall styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(207, 227, 240);
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  text-decoration-line:underline;
+  font-style:italic;
+  
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+/* Container styles */
+
+#budget-container,
+#expense-container,
+#data-container {
+  margin-bottom: 30px;
+}
+
+/* Input styles */
+input[type="number"],
+input[type="text"],
+input[type="date"] {
+  padding: 8.5px;
+  width: 25%;
+  margin-bottom:15px;
+  border-radius: 20px;
+  border-color: rgb(20, 108, 223);
+}
+
+/* Button styles */
+button {
+  padding: 15px 15px;
+  background-color: #457eac;
+  color: white;
+  border-radius: 45px;
+  border-color: rgb(20, 108, 223);
+  cursor: pointer;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-style:ridge;
+}
+
+th,td {
+  padding: 10px;
+  text-align: left;
+  border-color: black;
+}
+
+th {
+  background-color: #457eac;
+  color: white;
+}
+
+/* Remaining budget styles */
+#remaining-budget {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+}
